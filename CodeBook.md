@@ -1,7 +1,7 @@
-#Code Book
+# Code Book
 This codebook summarizes the resulting variables in TidyDataSet.txt
 
-##Data
+## Data
 The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -10,7 +10,7 @@ The initial data set can be found here:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-##Variables
+## Variables
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals timeAcc-XYZ and timeGyro-XYZ. These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (timeBodyAcc-XYZ and timeGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (timeBodyAccJerk-XYZ and timeBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (timeBodyAccMag, timeGravityAccMag, timeBodyAccJerkMag, timeBodyGyroMag, timeBodyGyroJerkMag). 
@@ -57,7 +57,7 @@ The mean and standard deviation (std) were estimated from these signals and were
 * frequencyBodyAccJerkMag-std
 * frequencyBodyGyroJerkMag-std
 
-###Identifiers
+### Identifiers
 * subjectject - The ID of the test subject
 
 * activity - The type of activity performed when the corresponding measurements were taken
@@ -69,7 +69,7 @@ The mean and standard deviation (std) were estimated from these signals and were
 	5. Standing
 	6. Laying
 
-##Transformations
+## Transformations
 The initial data set included the following files:
 
 * features.txt: List of all features.
